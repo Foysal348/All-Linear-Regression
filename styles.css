@@ -3,9 +3,10 @@
 /* The first section start here */
 /* The navigation section element styles start here  */
 .button-primary{
-    max-width: 190px;
-max-height: 40px;
+    width: 190px;
+height: 40px;
 border: 1px solid rgb(13, 19, 33);
+background-color: #0af125;
 border-radius: 5px;
 
 }
@@ -76,7 +77,6 @@ gap: 50px;
 .second-banner{
     max-width: 1140px;
 max-height: 1000px;
-border: 2px solid red;
 background: rgba(13, 19, 33, 0.02);
 border-radius: 16px;
 margin: 50px;
@@ -121,7 +121,7 @@ align-items: center;
 .third-banner{
    width: 800px;
 height: 500px;
-border: 2px solid red;
+
 padding: 110px 140px;
 background-position: center;
 margin-bottom: 15px;
@@ -144,7 +144,7 @@ flex: none;
 .fourth-banner{
     width: 1100px;
 height: 600px;
-border: 2px solid red;
+
 background-position: center;
 margin-left: 50px;
 
@@ -184,7 +184,7 @@ height: 299px;
 .fifth-banner{
     max-width: 1140px;
 height: 850px;
-border: 2px solid red;
+
 margin-top:40px ;
 background-position: center;
 margin-bottom:40px ;
@@ -207,7 +207,7 @@ color: rgb(172, 174, 178);
 .header-center{
     text-align: center;
    color: rgb(13, 19, 33)
-}
+ } /*
 .footer{
     border: 2px solid red;
     width: 1200px;
@@ -240,4 +240,38 @@ border-radius: 10px;
     display: flex;
 flex-direction: column;
 justify-content: center;
+}*/
+footer{
+    width: 1250px;
+height: 513px;
+    display: flex;
+    gap: 100px;
+    background-image:url(assets/handshake.jpg);
+    background-position: center;
+  
+    
+}
+.secondary-bg{
+    padding-left: 30px;
+}
+.footer-column{
+    width: 50%;
+}
+#gap{
+    justify-content:center;
+}
+footer input[type="text"],footer input[type="email"],footer input[type="textarea"]{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    gap: 30px;
+    
+    margin-bottom: 24px;
+   
+}
+.section-title{
+
+ color: white;
+ font-weight: 800;
 }
