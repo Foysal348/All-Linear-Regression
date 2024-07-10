@@ -3,15 +3,15 @@
 /* The first section start here */
 /* The navigation section element styles start here  */
 .button-primary{
-    width: 190px;
-height: 40px;
+    max-width: 190px;
+max-height: 40px;
 border: 1px solid rgb(13, 19, 33);
 border-radius: 5px;
 
 }
 .nav-title{
-    width: 128px;
-height: 33px;
+    max-width: 128px;
+max-height: 33px;
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 28px;
@@ -32,8 +32,8 @@ nav ul li{
 /* The banner part styles start here */
 .banner{
     background-image:url("assets/Hero-bg.png");
-    width: 1220px;
-height: 652px;
+    max-width: 1220px;
+max-height: 652px;
 margin:15px;
 display: flex;
 flex-direction: column;
@@ -59,8 +59,8 @@ margin-bottom: 40px;
 
 }
 .button-bar{
-    width: 190px;
-height: 39px;
+    max-width: 190px;
+max-height: 39px;
 color:rgb(255, 255, 255);
 font-family: Azeret Mono;
 font-size: 15px;
@@ -74,8 +74,8 @@ gap: 50px;
 /* The first section end here */
 /* The second section start here */
 .second-banner{
-    width: 1140px;
-height: 1393px;
+    max-width: 1140px;
+max-height: 1000px;
 border: 2px solid red;
 background: rgba(13, 19, 33, 0.02);
 border-radius: 16px;
@@ -96,41 +96,109 @@ align-items: center;
     align-items: center;
 }
 .div-first{
- 
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.div-second{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.div-third{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
 /* The second section end here */
 /* The third section start here */
 .third-banner{
-    width: 1140px;
-height: 775px;
+   width: 800px;
+height: 500px;
 border: 2px solid red;
+padding: 110px 140px;
+background-position: center;
+margin-bottom: 15px;
+margin-left: 50px;
+border-radius:10px;
+
+}
+.video{
+    align-items: center;
+    margin: 10px 10px;
+    width: 976px;
+height: 50px;
+border-radius: 16px;
+text-align: center;
+flex: none;
 
 }
 /* The third section end here */
 /* The fourth section start here */
 .fourth-banner{
-    width: 1140px;
-height: 775px;
+    width: 1100px;
+height: 600px;
 border: 2px solid red;
+background-position: center;
+margin-left: 50px;
+
+
 
 }
 .skill-container{
     display: flex;
-    gap:24px;
+    gap:10px;
 }
-.skill{
+.skill-one{
     padding: 30px;
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+width: 364px;
+height: 299px;
+}
+.skill-two{
+    padding: 30px;
+    border-radius: 16px;
+background: rgba(241, 12, 165, 0.05);
+width: 364px;
+
+height: 299px;
+}
+.skill-three{
+    padding: 30px;
+    border-radius: 16px;
+background: rgba(5, 241, 80, 0.05);
+width: 364px;
+height: 299px;
+
 }
 /* The fourth section end here */
 
 /* The fifth section start here */
 .fifth-banner{
-    width: 1140px;
-height: 775px;
+    max-width: 1140px;
+height: 850px;
 border: 2px solid red;
-
+margin-top:40px ;
+background-position: center;
+margin-bottom:40px ;
+margin-left: 40px;
 }
+.target-container{
+   padding:50px;
+   gap:20px;
+   display: flex;
+   justify-content: space-around;
+
+
+} 
+
 /* The fifth section end here */
 .text-center{
 text-align: center;
@@ -139,4 +207,37 @@ color: rgb(172, 174, 178);
 .header-center{
     text-align: center;
    color: rgb(13, 19, 33)
+}
+.footer{
+    border: 2px solid red;
+    width: 1200px;
+    height: 553px;
+    background-image: url(assets/handshake.jpg);
+    margin-top: 50px;
+    background-position: center;
+    border-radius: 5px;
+   background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+   margin-left:30px;
+}
+.input-button{
+    width: 450px;
+height: 55px;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 5px;
+margin-top: 50px;
+margin-bottom: 20px;
+
+
+}
+.submit-button{
+    justify-items: center;
+    width: 150px;
+height: 55px;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 10px;
+}
+.footer-input{
+    display: flex;
+flex-direction: column;
+justify-content: center;
 }
