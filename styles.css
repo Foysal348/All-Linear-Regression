@@ -5,10 +5,18 @@
 .button-primary{
     width: 190px;
 height: 40px;
-border: 1px solid rgb(13, 19, 33);
-background-color: #0af125;
+border: 1px solid rgb(159, 183, 25);
+background-color:red;
 border-radius: 5px;
 
+}
+.button-bar{
+    width: 180px;
+    height: 40px;
+    border: 1px solid rgb(183, 25, 143);
+    background-color: #afc93a;
+    border-radius: 5px;
+    
 }
 .nav-title{
     max-width: 128px;
@@ -207,7 +215,10 @@ color: rgb(172, 174, 178);
 .header-center{
     text-align: center;
    color: rgb(13, 19, 33)
- } /*
+ } 
+
+
+/* footer section start  here  */
 .footer{
     border: 2px solid red;
     width: 1200px;
@@ -218,6 +229,10 @@ color: rgb(172, 174, 178);
     border-radius: 5px;
    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
    margin-left:30px;
+   display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
 }
 .input-button{
     width: 450px;
@@ -230,48 +245,10 @@ margin-bottom: 20px;
 
 }
 .submit-button{
-    justify-items: center;
+    /* justify-items: center; */
     width: 150px;
 height: 55px;
 border: 1px solid rgb(13, 19, 33);
 border-radius: 10px;
-}
-.footer-input{
-    display: flex;
-flex-direction: column;
-justify-content: center;
-}*/
-footer{
-    width: 1250px;
-height: 513px;
-    display: flex;
-    gap: 100px;
-    background-image:url(assets/handshake.jpg);
-    background-position: center;
-  
-    
-}
-.secondary-bg{
-    padding-left: 30px;
-}
-.footer-column{
-    width: 50%;
-}
-#gap{
-    justify-content:center;
-}
-footer input[type="text"],footer input[type="email"],footer input[type="textarea"]{
-    height: 50px;
-    border-radius: 5px;
-    background-color: white;
-    display: block;
-    gap: 30px;
-    
-    margin-bottom: 24px;
-   
-}
-.section-title{
 
- color: white;
- font-weight: 800;
 }
