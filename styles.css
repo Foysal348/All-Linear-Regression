@@ -220,7 +220,7 @@ color: rgb(172, 174, 178);
 
 /* footer section start  here  */
 .footer{
-    border: 2px solid red;
+  
     width: 1200px;
     height: 553px;
     background-image: url(assets/handshake.jpg);
