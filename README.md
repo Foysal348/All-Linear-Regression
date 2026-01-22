@@ -42,11 +42,17 @@ The project includes multiple plots:
 
 Salary vs Years of Experience
 
+<img width="1113" height="655" alt="image" src="https://github.com/user-attachments/assets/9a52afb9-8a7c-43ba-a5ee-301978fe6924" />
+
+
 *2.Regression Line*
 
 Best-fit line over actual data
 
 *3.Residual Lines*
+
+<img width="1141" height="666" alt="image" src="https://github.com/user-attachments/assets/da42a86d-dc5e-472e-9133-2139f934d8b0" />
+
 
 Vertical lines showing prediction errors
 
